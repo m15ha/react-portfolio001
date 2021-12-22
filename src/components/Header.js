@@ -28,7 +28,7 @@ export default function Header() {
       /> */}
       <Flex
         direction={isNotSmallerScreen ? 'row' : 'column'}
-        spacing="200px"
+        spacing="100px"
         p={isNotSmallerScreen ? '32' : '0'}
         alignSelf="flex-start"
       >
